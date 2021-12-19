@@ -1,5 +1,5 @@
+<element name="BookCard" src="../BookCard/pages/index/BookCard.hml"></element>
+
 <div class="container">
-    <text class="title">
-        {{ $t('strings.hello') }} {{ title }}
-    </text>
+<BookCard></BookCard>
 </div>

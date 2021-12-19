@@ -1,4 +1,4 @@
-package com.example.book_cover;
+package com.example.cardlibrary;
 
 import ohos.aafwk.ability.delegation.AbilityDelegatorRegistry;
 import org.junit.Test;
@@ -9,6 +9,6 @@ public class ExampleOhosTest {
     @Test
     public void testBundleName() {
         final String actualBundleName = AbilityDelegatorRegistry.getArguments().getTestBundleName();
-        assertEquals("com.example.book_cover.hmservice", actualBundleName);
+        assertEquals("com.example.cardlibrary", actualBundleName);
     }
 }

@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.example.book_cover.hmservice",
+    "bundleName": "com.example.cardlibrary",
     "vendor": "example",
     "version": {
       "code": 1000000,
@@ -9,9 +9,9 @@
   },
   "deviceConfig": {},
   "module": {
-    "package": "com.example.book_cover",
+    "package": "com.example.cardlibrary",
     "name": ".MyApplication",
-    "mainAbility": "com.example.book_cover.MainAbility",
+    "mainAbility": "com.example.cardlibrary.MainAbility",
     "deviceType": [
       "phone",
       "tablet",
@@ -22,7 +22,7 @@
       "deliveryWithInstall": true,
       "moduleName": "entry",
       "moduleType": "entry",
-      "installationFree": true
+      "installationFree": false
     },
     "abilities": [
       {
@@ -37,7 +37,7 @@
           }
         ],
         "visible": true,
-        "name": "com.example.book_cover.MainAbility",
+        "name": "com.example.cardlibrary.MainAbility",
         "icon": "$media:icon",
         "description": "$string:mainability_description",
         "label": "$string:entry_MainAbility",

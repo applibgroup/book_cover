@@ -1,4 +1,4 @@
-package com.example.book_cover;
+package com.example.cardlibrary;
 
 import ohos.ace.ability.AceAbility;
 import ohos.aafwk.content.Intent;
