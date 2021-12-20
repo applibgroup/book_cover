@@ -2,6 +2,18 @@
     <div class="{{ topContainer }}">
         <image class="{{ imageClass }}" src="{{image}}" />
         <div class="{{ textContainer }}">
+            <div class="{{ starContainer }} ">
+                <div id="{{ stars }}" onclick="changestar()">
+                </div>
+                <div id="{{ stars }}" onclick="changestar">
+                </div>
+                <div id="{{ stars }}" onclick="changestar">
+                </div>
+                <div id="{{ stars }}" onclick="changestar">
+                </div>
+                <div id="{{ stars }}" onclick="changestar">
+                </div>
+            </div>
                 <text class="{{ title }}">{{name}}</text>
             <text class="{{ subTitle }}">{{sub_title}}</text>
                 <button class="btn">Buy</button>

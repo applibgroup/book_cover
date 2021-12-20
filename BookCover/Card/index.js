@@ -34,6 +34,8 @@ export default {
         if(this.type==="book-card"){
             this.container="book-card";
             this.imageClass="image";
+            this.starContainer="starContainer";
+            this.stars="stars";
             this.title="name";
             this.subTitle= "spec";
             this.textContainer="textContainer";
@@ -46,4 +48,18 @@ export default {
             this.readMore="readMoreBlock";
         }
     },
+
+    changestar(e) {
+          var x = document.getElementById("stars");
+          document.getElementById("stars");
+          if (x.style.display === "none") {
+              x.style.display = "block";
+          } else {
+              x.style.display = "none";
+          }
+//        const zeroPad = (num, places) => String(num).padStart(places, '0');
+//        e.month=e.month+1;
+//        this.datetimevalue=e.day+"/"+e.month+"/"+e.year+"  "+zeroPad(e.hour,2)+":"+zeroPad(e.minute,2);
+    },
 }
+

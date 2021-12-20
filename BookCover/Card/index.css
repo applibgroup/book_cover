@@ -73,3 +73,14 @@
     font-size:22px;
     font-weight: bold;
 }
+
+.starContainer{
+    position:absolute;
+    top:-32%;
+}
+#stars{
+    width:30px;
+    height:30px;
+    display:flex;
+    background-image: url('https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star.png');
+}
