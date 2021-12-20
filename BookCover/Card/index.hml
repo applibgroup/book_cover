@@ -3,15 +3,15 @@
         <image class="{{ imageClass }}" src="{{image}}" />
         <div class="{{ textContainer }}">
             <div class="{{ starContainer }} ">
-                <div id="{{ stars }}" onclick="changestar()">
+                <div id="{{ stars }}" if="{{display1}}">
                 </div>
-                <div id="{{ stars }}" onclick="changestar">
+                <div id="{{ stars }}" if="{{display2}}">
                 </div>
-                <div id="{{ stars }}" onclick="changestar">
+                <div id="{{ stars }}" if="{{display3}}">
                 </div>
-                <div id="{{ stars }}" onclick="changestar">
+                <div id="{{ stars }}" if="{{display4}}">
                 </div>
-                <div id="{{ stars }}" onclick="changestar">
+                <div id="{{ stars }}" if="{{display5}}">
                 </div>
             </div>
                 <text class="{{ title }}">{{name}}</text>
