@@ -57,9 +57,6 @@ export default {
           } else {
               x.style.display = "none";
           }
-//        const zeroPad = (num, places) => String(num).padStart(places, '0');
-//        e.month=e.month+1;
-//        this.datetimevalue=e.day+"/"+e.month+"/"+e.year+"  "+zeroPad(e.hour,2)+":"+zeroPad(e.minute,2);
     },
 }
 
