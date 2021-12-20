@@ -73,3 +73,15 @@
     font-size:22px;
     font-weight: bold;
 }
+
+.starContainer{
+    position:absolute;
+    top:-32%;
+}
+#stars{
+    width:30px;
+    height:30px;
+    display:flex;
+    background-repeat: no-repeat;
+    background-image: url('https://cdn1.iconfinder.com/data/icons/christmas-flat-4/58/019_-_Star-26.png');
+}
