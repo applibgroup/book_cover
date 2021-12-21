@@ -12,27 +12,15 @@ export default {
         title: "",
         subTitle: "",
         textContainer: "",
-        bottomContainer: "",
-        dateValue: "",
-        description: "",
-        topContainer: "",
-        bottomTextContainer:"",
-        like:"",
-        view:"",
-        valueContainer:"",
-        readMore:"",
-        readMoreText:"",
+        innerContainer: "",
     },
     props:{
         type: "",
         name:"",
         sub_title: "",
         image: "",
-        desc:"",
+        spec: "",
         rating: "",
-        likes:"",
-        views: "",
-        btncolor:"",
     },
     onInit() {
 
@@ -75,10 +63,7 @@ export default {
             this.title="name";
             this.subTitle= "spec";
             this.textContainer="textContainer";
-            this.bottomContainer="bottomContainer";
-            this.dateValue="text";
-            this.topContainer="topContainer";
-            this.bottomTextContainer="bottomTextContainer";
+            this.innerContainer="innerContainer";
         }
     },
 }

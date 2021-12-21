@@ -8,10 +8,9 @@
     margin: 12px 0px;
     border-bottom: 4px solid lightgrey;
     border-right: 4px solid lightgrey;
-/*    box-shadow: 0px 40px 20px 0px rgba(0,0,0,0.40);*/
 }
 
-.topContainer{
+.innerContainer{
     display: flex;
     align-items:center;
     justify-content:space-between;
@@ -50,19 +49,7 @@
     font-weight: 700;
 }
 
-.bottomTextContainer{
-    display: flex;
-    margin:10px 0px;
-}
-
-.bottomContainer{
-    display: flex;
-    align-items:center;
-    justify-content:space-around;
-    margin-bottom: 14px;
-}
-
-.btn{
+.button{
     background-color: blueviolet;
     margin-top: 55%;
     padding:8px 30px 8px 30px;
@@ -78,7 +65,7 @@
     position:absolute;
     top:-32%;
 }
-#stars{
+.stars{
     width:30px;
     height:30px;
     display:flex;

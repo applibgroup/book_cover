@@ -1,22 +1,22 @@
 <div class="{{ container }}">
-    <div class="{{ topContainer }}">
+    <div class="{{ innerContainer }}">
         <image class="{{ imageClass }}" src="{{image}}" />
         <div class="{{ textContainer }}">
             <div class="{{ starContainer }} ">
-                <div id="{{ stars }}" if="{{display1}}">
+                <div class="{{ stars }}" if="{{display1}}">
                 </div>
-                <div id="{{ stars }}" if="{{display2}}">
+                <div class="{{ stars }}" if="{{display2}}">
                 </div>
-                <div id="{{ stars }}" if="{{display3}}">
+                <div class="{{ stars }}" if="{{display3}}">
                 </div>
-                <div id="{{ stars }}" if="{{display4}}">
+                <div class="{{ stars }}" if="{{display4}}">
                 </div>
-                <div id="{{ stars }}" if="{{display5}}">
+                <div class="{{ stars }}" if="{{display5}}">
                 </div>
             </div>
                 <text class="{{ title }}">{{name}}</text>
             <text class="{{ subTitle }}">{{sub_title}}</text>
-                <button class="btn">Buy</button>
+                <button class="button">Buy</button>
         </div>
     </div>
 </div>
