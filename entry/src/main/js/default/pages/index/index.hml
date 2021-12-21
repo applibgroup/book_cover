@@ -1,0 +1,5 @@
+<element name="BookCard" src="../BookCard/pages/index/BookCard.hml"></element>
+
+<div class="container">
+<BookCard></BookCard>
+</div>

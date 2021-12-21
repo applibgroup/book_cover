@@ -1,0 +1,10 @@
+<element name="Card" src="../../../../../../../../node_modules/BookCover/Card/index.hml"></element>
+
+<div class="container">
+   <Card type="book-card" name="MY BOOK COVER" sub_title="Souvik Ray" rating="3" image="https://edit.org/images/cat/book-covers-big-2019101610.jpg"></Card>
+   <Card type="book-card" name="THE THREE MONTH" sub_title="Lorna Alvarado" rating="4" image="https://static-cse.canva.com/blob/142533/Red-and-Beige-Cute-Illustration-Young-Adult-Book-Cover.jpg"></Card>
+   <Card type="book-card" name="MEMORY" sub_title="Angelina Aludo" rating="5" image="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/contemporary-fiction-night-time-book-cover-design-template-1be47835c3058eb42211574e0c4ed8bf_screen.jpg?ts=1637012564"></Card>
+   <Card type="book-card" name="STORY BOOK" sub_title="Jean Lumier" rating="1" image="https://assets-3.placeit.net/smart_templates/e639b9513adc63d37ee4f577433b787b/assets/wn5u193mcjesm2ycxacaltq8jdu68kmu.jpg"></Card>
+   <Card type="book-card" name="SPIRIT'S VOICE" sub_title="Jonathan Smith" rating="3" image="https://microlancer.lancerassets.com/v2/services/9d/759cf0433411e695bffb04eef0d615/large__original_Spirit_s-Voice-Gothic-Book-Cover.jpg"></Card>
+   <Card type="book-card" name="FORTRESS BLOOD" sub_title="L.D. Goffigan" rating="2" image="https://miblart.com/wp-content/uploads/2020/01/crime-and-mystery-cover-scaled-1.jpeg"></Card>
+</div>
