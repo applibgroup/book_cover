@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.example.cardlibrary",
+    "bundleName": "com.example.bookcover",
     "vendor": "example",
     "version": {
       "code": 1000000,
@@ -9,15 +9,10 @@
   },
   "deviceConfig": {},
   "module": {
-    "package": "com.example.cardlibrary",
+    "package": "com.example.bookcover",
     "name": ".MyApplication",
-    "mainAbility": "com.example.cardlibrary.MainAbility",
-    "deviceType": [
-      "phone",
-      "tablet",
-      "tv",
-      "wearable"
-    ],
+    "mainAbility": "com.example.bookcover.MainAbility",
+    "deviceType": ["phone", "tablet", "tv", "wearable"],
     "distro": {
       "deliveryWithInstall": true,
       "moduleName": "entry",
@@ -28,16 +23,12 @@
       {
         "skills": [
           {
-            "entities": [
-              "entity.system.home"
-            ],
-            "actions": [
-              "action.system.home"
-            ]
+            "entities": ["entity.system.home"],
+            "actions": ["action.system.home"]
           }
         ],
         "visible": true,
-        "name": "com.example.cardlibrary.MainAbility",
+        "name": "com.example.bookcover.MainAbility",
         "icon": "$media:icon",
         "description": "$string:mainability_description",
         "label": "$string:entry_MainAbility",
@@ -47,9 +38,7 @@
     ],
     "js": [
       {
-        "pages": [
-          "pages/index/index"
-        ],
+        "pages": ["pages/index/index"],
         "name": "default",
         "window": {
           "designWidth": 720,

@@ -1,4 +1,4 @@
-package com.example.cardlibrary;
+package com.example.bookcover;
 
 import ohos.aafwk.ability.AbilityPackage;
 
