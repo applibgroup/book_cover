@@ -1,0 +1,22 @@
+<div class="{{ container }}">
+    <div class="{{ innerContainer }}">
+        <image class="{{ imageClass }}" src="{{image}}" />
+        <div class="{{ textContainer }}">
+            <div class="{{ starContainer }} ">
+                <div class="{{ stars }}" if="{{display1}}">
+                </div>
+                <div class="{{ stars }}" if="{{display2}}">
+                </div>
+                <div class="{{ stars }}" if="{{display3}}">
+                </div>
+                <div class="{{ stars }}" if="{{display4}}">
+                </div>
+                <div class="{{ stars }}" if="{{display5}}">
+                </div>
+            </div>
+                <text class="{{ title }}">{{name}}</text>
+            <text class="{{ subTitle }}">{{sub_title}}</text>
+                <button class="button">Buy</button>
+        </div>
+    </div>
+</div>

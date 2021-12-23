@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/book_cover.iml" filepath="$PROJECT_DIR$/.idea/modules/book_cover.iml" group="book_cover" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BookCover/cardcomponent.iml" filepath="$PROJECT_DIR$/.idea/modules/BookCover/cardcomponent.iml" group="book_cover/cardcomponent" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/entry/entry.iml" filepath="$PROJECT_DIR$/.idea/modules/entry/entry.iml" group="book_cover/entry" />
+    </modules>
+  </component>
+</project>
