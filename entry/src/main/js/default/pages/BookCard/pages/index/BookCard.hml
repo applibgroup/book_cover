@@ -2,9 +2,9 @@
 
 <div class="container">
    <Card type="book-card" name="MY BOOK COVER" sub_title="Souvik Ray" rating="3" image="/common/images/book1.jpg"></Card>
-   <Card type="book-card" name="THE THREE MONTH" sub_title="Lorna Alvarado" rating="4" image="/common/images/book2.png"></Card>
-   <Card type="book-card" name="MEMORY" sub_title="Angelina Aludo" rating="5" image="/common/images/book3.jpg"></Card>
-   <Card type="book-card" name="STORY BOOK" sub_title="Jean Lumier" rating="1" image="https://assets-3.placeit.net/smart_templates/e639b9513adc63d37ee4f577433b787b/assets/wn5u193mcjesm2ycxacaltq8jdu68kmu.jpg"></Card>
-   <Card type="book-card" name="SPIRIT'S VOICE" sub_title="Jonathan Smith" rating="3" image="https://microlancer.lancerassets.com/v2/services/9d/759cf0433411e695bffb04eef0d615/large__original_Spirit_s-Voice-Gothic-Book-Cover.jpg"></Card>
-   <Card type="book-card" name="FORTRESS BLOOD" sub_title="L.D. Goffigan" rating="2" image="https://miblart.com/wp-content/uploads/2020/01/crime-and-mystery-cover-scaled-1.jpeg"></Card>
+   <Card type="book-card" name="THE THREE MONTH" sub_title="Lorna Alvarado" rating="4" image="/common/images/book1.jpg"></Card>
+   <Card type="book-card" name="MEMORY" sub_title="Angelina Aludo" rating="5" image="/common/images/book1.jpg"></Card>
+   <Card type="book-card" name="STORY BOOK" sub_title="Jean Lumier" rating="1" image="/common/images/book1.jpg"></Card>
+   <Card type="book-card" name="SPIRIT'S VOICE" sub_title="Jonathan Smith" rating="3" image="/common/images/book1.jpg"></Card>
+   <Card type="book-card" name="FORTRESS BLOOD" sub_title="L.D. Goffigan" rating="2" image="/common/images/book1.jpg"></Card>
 </div>
