@@ -1,0 +1,10 @@
+<element name="Card" src="../../../../../../../../node_modules/BookCover/Card/index.hml"></element>
+
+<div class="container">
+   <Card type="book-card" name="MY BOOK COVER" sub_title="Souvik Ray" rating="3" image="/common/images/book1.jpg"></Card>
+   <Card type="book-card" name="THE THREE MONTH" sub_title="Lorna Alvarado" rating="4" image="/common/images/book1.jpg"></Card>
+   <Card type="book-card" name="MEMORY" sub_title="Angelina Aludo" rating="5" image="/common/images/book1.jpg"></Card>
+   <Card type="book-card" name="STORY BOOK" sub_title="Jean Lumier" rating="1" image="/common/images/book1.jpg"></Card>
+   <Card type="book-card" name="SPIRIT'S VOICE" sub_title="Jonathan Smith" rating="3" image="/common/images/book1.jpg"></Card>
+   <Card type="book-card" name="FORTRESS BLOOD" sub_title="L.D. Goffigan" rating="2" image="/common/images/book1.jpg"></Card>
+</div>
